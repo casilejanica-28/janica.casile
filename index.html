@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <div class="navbar">
+      <nav>
+        <a href="#" id="logo">MY PORTFOLIO</a>
+        <div class="hamburger" id="hamburger">
+          ☰
+        </div>
+        <ul id="nav-menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="image-section">
+      <img src="2.jpg" alt="Profile">
+    </div>
+
+    <div class="text-section">
+      <h2>HI I'M CASILE, JANICA A.</h2>
+      <p>I AM A 3RD YR BS INFORMATION TECHNOLOGY</p>
+
+      <h1>&nbsp;&nbsp;&nbsp;
+          <span class="white">“</span><span class="white bsc up">DO</span><span class="red bsc up">N'T</span>
+          <br>
+          <span class="red bsc down">QU</span><span class="white bsc up">IT</span><span class="white">”</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </h1>
+    </div>
+
+    <div class="footer-section">
+      <p></p>
+    </div>
+
+  </div>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
